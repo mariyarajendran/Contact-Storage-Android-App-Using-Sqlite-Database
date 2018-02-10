@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.newcontact"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="18" />
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:smallScreens="true"
+        android:xlargeScreens="true" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.newcontact.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <intent-filter>
+            <action android:name="android.intent.action.SEARCH" />
+        </intent-filter>
+
+        <activity
+            android:name="com.example.newcontact.Addcontact"
+            android:label="@string/title_activity_addcontact" >
+        </activity>
+        <activity
+            android:name="com.example.newcontact.ViewContact"
+            android:label="@string/title_activity_view_contact" >
+        </activity>
+        <activity
+            android:name="com.example.newcontact.Update"
+            android:label="@string/title_activity_update" >
+        </activity>
+        <activity
+            android:name="com.example.newcontact.Search"
+            android:label="@string/title_activity_search" >
+        </activity>
+        <activity
+            android:name="com.example.newcontact.Viewdatas"
+            android:label="@string/title_activity_viewdatas" >
+        </activity>
+        <activity
+            android:name="com.example.newcontact.Edit"
+            android:label="@string/title_activity_edit" >
+        </activity>
+        <activity
+            android:name="com.example.newcontact.Message"
+            android:label="@string/title_activity_message" >
+        </activity>
+        <activity
+            android:name="com.example.newcontact.Messages"
+            android:label="@string/title_activity_messages" >
+        </activity>
+        <activity
+            android:name="com.example.newcontact.Custom"
+            android:label="@string/title_activity_custom" >
+        </activity>
+        <activity
+            android:name="com.example.newcontact.Edittext"
+            android:label="@string/title_activity_edittext" >
+        </activity>
+        <activity
+            android:name="com.example.newcontact.NewContact"
+            android:label="@string/title_activity_signin" >
+        </activity>
+        <activity
+            android:name="com.example.newcontact.Login"
+            android:label="@string/title_activity_login" >
+        </activity>
+        <activity
+            android:name="com.example.newcontact.Signin"
+            android:label="@string/title_activity_main" >
+        </activity>
+    </application>
+
+</manifest>

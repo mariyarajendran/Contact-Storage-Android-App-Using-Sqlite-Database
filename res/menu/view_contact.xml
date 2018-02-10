@@ -1,0 +1,34 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+   
+    
+     
+  
+      
+       <item android:id="@+id/search"
+          android:title="Search"
+          android:icon="@drawable/search"
+          android:showAsAction="collapseActionView|ifRoom"
+          android:actionViewClass="android.widget.SearchView" />
+ 
+    
+    
+     
+     <item android:id="@+id/add"
+          android:title="Add" 
+          android:orderInCategory="100"
+           android:icon="@drawable/addperson"
+            android:showAsAction="always"/>
+         
+      <item android:id="@+id/previous"
+          android:title="Add" 
+          android:orderInCategory="100"
+           android:icon="@drawable/previous"
+            android:showAsAction="always"/>
+     
+      
+            
+          
+      
+
+</menu>

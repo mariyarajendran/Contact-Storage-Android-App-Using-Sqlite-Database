@@ -1,0 +1,44 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+   
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true"
+    android:scrollbarStyle="insideInset"
+    android:scrollbars="vertical" 
+    android:background="#2196F3">
+    
+      <RelativeLayout
+           
+         android:layout_width="fill_parent"
+         android:layout_height="fill_parent"
+         android:layout_alignParentLeft="true"
+         android:layout_alignParentTop="true"
+         android:orientation="vertical" >
+
+         <Button
+             android:id="@+id/button2"
+             style="@style/AppTheme"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_below="@+id/button1"
+             android:layout_centerHorizontal="true"
+             android:background="@drawable/customselect"
+             android:text="ViewContacts"
+             android:textColor="#FFFFFF"
+             android:textStyle="italic" />
+
+         <Button
+             android:id="@+id/button1"
+             style="@style/AppTheme"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_alignLeft="@+id/button2"
+             android:layout_alignParentTop="true"
+             android:background="@drawable/customselect"
+             android:text="AddContacts"
+             android:textColor="#FFFFFF"
+             android:textStyle="italic" />
+
+ </RelativeLayout>
+ 
+</ScrollView>
